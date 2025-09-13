@@ -1,0 +1,49 @@
+| Section | Title                                                              | Page(s)          |
+| ------- | ------------------------------------------------------------------ | ---------------- |
+| 1       | Introduction & Requirements                                        | 1                |
+| 1.1     | Problem statement & objectives                                     | 3                |
+| 1.2     | Scope of deliverables (docs, code, tests)                          | 4                |
+| 1.3     | Alignment with assignment brief                                    | 4                |
+| 2       | System Design                                                      | 4                |
+| 2.1     | Architecture overview (backend, DB, frontend)                      | 4                |
+| 2.2     | Database schema (ERD + pipeline mapping)                           | 5–12             |
+| 2.3     | Key invariants (validators, triggers, business rules)              | 12–14            |
+| 3       | Implementation                                                     | 15               |
+| 3.1     | Backend                                                            | 15               |
+| 3.1.1   | Authentication & authorization (cookies, roles, JWT lifecycle)     | 17–21            |
+| 3.1.2   | Services & repositories (layer mapping to brief)                   | 21–23            |
+| 3.1.3   | Validators & triggers (with code snippets)                         | 23               |
+| 3.2     | API Layer                                                          | 17–25            |
+| 3.2.1   | index.html – Login and CRUD operations                             | 24               |
+| 3.2.2   | OpenAPI spec (aligned with DTOs & error envelopes)                 | 24–25            |
+| 3.2.3   | Error handling & pagination/filtering                              | 25               |
+| 3.3     | Frontend                                                           | 26               |
+| 3.3.1   | UI pages & workflows                                               | 26               |
+| 3.3.2   | Client-side validation & security posture (XSS/CSRF)               | 26               |
+| 3.4     | DTOs vs Validators (context & decision)                            | 25–26            |
+| 4       | Testing                                                            | 27–29            |
+| 4.1     | Testing strategy (pyramid)                                         | 27               |
+| 4.2     | Schema-level tests (FKs, triggers)                                 | 27               |
+| 4.3     | Validator/unit tests                                               | 27               |
+| 4.4     | API/integration tests (auth matrix, CRUD)                          | 28               |
+| 4.4.1   | Black-box testing (scope, method, instances)                       | 28               |
+| 4.5     | End-to-end smoke tests (UI)                                        | 28–29            |
+| 4.6     | CI & coverage                                                      | 28–29            |
+| 5       | Responsible LLM Usage (overview; detailed framework later)         | 29 (also 67–75 ) |
+| 6       | Future Work & Limitations                                          | 29–37            |
+| 6.1     | Security hardening (production-ready gaps)                         | 29–30            |
+| 6.2     | Scalability & migration path                                       | 30               |
+| 6.3     | Feature backlog (reporting, dashboards, etc.)                      | 30–31            |
+| 6.4     | Design decision: naming, REST conventions, ranges, secrets         | 35–37            |
+| 7       | Conclusion                                                         | 37               |
+| 8       | Appendices                                                         | 38               |
+| 8.1     | Literature review & background theory                              | 38–75            |
+| 8.2     | Extended `schema.sql` (DDL)                                        | 76–85            |
+| 8.3     | Full OpenAPI YAML                                                  | 86–90            |
+| 8.4     | Screenshots & UI walk-throughs                                     | 119–121          |
+| 8.6     | Database 3rd normal form (3NF)                                     | 122–131          |
+| 8.7     | Security considerations & solutions                                | 132              |
+| 8.8     | Additions to service tests                                         | 132–133          |
+| 8.9     | Installation & run manual                                          | 133–134          |
+| 8.10    | Table design issues & future improvements                          | 134–139          |
+| 8.11    | Self-Assessment Summary                                            | 140–…            |
