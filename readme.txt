@@ -162,6 +162,11 @@ Deprecations
 owner_property_map is deprecated and will be superseded by owner_property_contract in v1.1.
 
 A compatibility view will be provided to smooth the transition.
+
+Addenum (9/11/2025)
+
+    Given the bootcamp's successful run, there will not be an update to this codebase. The reasoning being that given the scope and breadth it had, i believe a groud-up aproach can be more beneficial as a new project than incremental updates to this codebase. When that happens I will update both this readme and the new project's for the fact.
+
 License
 
 Educational use (final project).
